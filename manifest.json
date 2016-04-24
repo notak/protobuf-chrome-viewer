@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Protocol Viewer",
+  "description": "Where mimetype is message/protobuf render it. optionally use the x-protobuf-file to render more meaningfully",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["bg.js"]
+    },
+  "permissions": [
+  "webRequest",
+  "webRequestBlocking",
+  "webNavigation",
+    "activeTab",
+    "https://*/",
+    "http://*/"
+  ]
+}
